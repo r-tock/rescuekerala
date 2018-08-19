@@ -142,7 +142,7 @@ footer {
     display: inline-block;
     text-align: left;
     margin: 5px 10px;
-    width: 100%;
+    width: calc(100% - 20px);
     height: auto;
   }
   a.home-button .text {
