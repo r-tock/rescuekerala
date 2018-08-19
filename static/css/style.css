@@ -240,4 +240,6 @@ input, button, select {
 input, button, select, textarea {
   min-height: 48px;
   font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
