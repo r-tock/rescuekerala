@@ -14,7 +14,6 @@ class Migration(migrations.Migration):
         migrations.RunSQL("CREATE INDEX request_requestee_index ON mainapp_request (requestee, location)"),
         migrations.RunSQL("CREATE INDEX request_requestee_phone_index ON mainapp_request (requestee_phone, location)"),
         migrations.RunSQL("CREATE INDEX request_location_index ON mainapp_request (location)"),
-        migrations.RunSQL("CREATE INDEX request_latlng_index ON mainapp_request (latlng)"),
         migrations.RunSQL("CREATE INDEX rescuecamp_district_index ON mainapp_rescuecamp (district)"),
         migrations.RunSQL("CREATE INDEX person_combined_index ON mainapp_person (name, phone, district)"),
         migrations.RunSQL("CREATE INDEX person_phone_gender_district ON mainapp_person (phone, district)"),
