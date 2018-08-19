@@ -3,7 +3,6 @@
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
   text-size-adjust: 100%;
-  border: 0;
   font: inherit;
   font-size: 100%;
   margin: 0;
@@ -17,6 +16,7 @@ body {
 .navbar {
   padding: 15px 30px;
   margin-bottom: 5px;
+  background: #efefef;
 }
 .brand-logo,
 .brand-logo:hover {
@@ -231,6 +231,10 @@ table thead tr th {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+}
+
+input, button, select {
+  height: 48px;
 }
 
 input, button, select, textarea {
